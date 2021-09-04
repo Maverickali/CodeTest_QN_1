@@ -37,8 +37,6 @@ namespace CodeTest.DataLayer
                 }
                 context.SaveChanges();
 
-
-
                 var courses = new Course[]
                     {
                     new Course{CourseID=1050,Title="Chemistry",Credits=3},
